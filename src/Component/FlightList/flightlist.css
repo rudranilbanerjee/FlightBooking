@@ -1,0 +1,160 @@
+.flight_list_container{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+}
+.flight_list_box{
+    width:70%;
+    /* background-color:rgb(95, 100, 100); */
+}
+.header_part{
+    width:100%;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.loc1, .loc2{
+    width:35%;
+    display:flex;
+    padding: 5px 10px;
+}
+.location_icon{
+    width:10%;
+    font-size: 24px;
+}
+.location_details{
+    padding-left:10px
+}
+.location_details div:nth-child(1){
+    font-size: 14px;
+    color: gray;
+}
+.location_details div:nth-child(2){
+    font-weight: bold;
+}
+.arrow_direc{
+    font-size: 54px;
+}
+/*flight_list_body*/
+.flight_list_body{
+    margin-top: 20px;
+    width:100%;
+    background-color: rgb(227, 231, 238);
+    padding:20px;
+}
+.classType{
+    font-size: 10px;
+}
+.flight_list_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.flight_list_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.airplane_details{
+    width:55%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.airplane_details .arrival_time{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.airplane_details .total_onwards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.airplane_details .total_onwards{
+    /* width:60%; */
+}
+.total_onwards div:nth-child(2){
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.timing_details div{
+    font-size: 14px;
+}
+.timing_details div:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.arrival_time div:nth-child(1){
+    font-weight: bold;
+}
+.arrival_time div:nth-child(2){
+    font-size:14px
+}
+.airplane_logo{
+    width:20%;
+    display:flex;
+    flex-direction: column;
+}
+.airplane_logo small{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.airplane_logo div{
+    font-size: 12px;
+}
+
+.airplane_logo img{
+    width:80%;
+}
+.airplane_checkout{
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:7px
+}
+.airplane_checkout div:nth-child(2) button{
+    background-color: rgb(85, 183, 210);
+  color: rgb(255, 255, 255);
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+.show_more_result{
+    margin-top: 10px;
+    border:1px solid red;
+    padding:0px 15px;
+}
+.flight_card_menu{
+
+}
+.menu_arrival_time{
+    align-items: unset !important;
+}
+.menu_arrival_time div{
+    font-weight: bold;
+}
+.menu_arrival_time div:nth-child(4),.menu_arrival_time div:nth-child(5){
+    font-weight:400;
+    font-size: 14px;
+}
+.depart_details span:nth-child(1){
+    color:rgb(31, 124, 221);
+    margin-right: 20px;
+    font-weight:'bold'
+}
+.depart_details span:nth-child(1){
+    font-weight:'bold'
+}
+.flight_card_menu div:nth-child(2) span{
+    margin-left: 20px;
+    font-size: 13px;
+}

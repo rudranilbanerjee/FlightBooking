@@ -1,0 +1,173 @@
+
+.login-Container{
+  width:50% !important;
+  background-color: rgba(2, 2, 2, 0.63);
+  color:#fff !important;
+  height:max-content;
+  padding: 50px !important;
+  border-radius: 8px;
+}
+.login-Container input{
+  background-color:rgba(67, 82, 82, 0.626);
+  color:#fff !important;
+}
+.login-Container input::placeholder{
+  color:#fff !important;
+}
+.form_group {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.form_group label{
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+.flyingFor {
+  width: 100%;
+  height: 40px;
+  padding: 0px;
+  border: 0px;
+  background-color:rgba(67, 82, 82, 0.626);
+  border-radius: 6px;
+  border:0px
+}
+
+.flyingFor div input {
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 14px;
+  background-color: rgba(67, 82, 82, 0.626) !important;
+  padding: 0px;
+  padding-left: 10px;
+  /* border: 0px */
+  outline: #61dafb;
+  color:#fff !important;
+  /* border:2px solid #61dafb; */
+}
+input:focus{
+  background-color: rgba(67, 82, 82, 0.626) !important;
+}
+input::placeholder{
+  color:#fff !important;
+
+}
+.flyingFor div input:nth-child(2) {
+  display: none;
+}
+
+.flyingFor div a {
+  text-decoration: none;
+}
+
+/* Style to make the input readable */
+input[type='date'] {
+  color:transparent;
+  width: 40px;
+  position: absolute;
+  right: 0px;
+  height: 40px;
+  border: 1px solid black;
+  z-index: 9999;
+  opacity:0;
+  top:0px
+  /* Set your desired text color */
+}
+
+.date_class {
+  position: relative;
+}
+
+.date_class .show_date {
+  width: 100%;
+  height: 40px !important;
+  font-size: 14px;
+  padding: 0px;
+  padding-left: 10px;
+  background-color:rgba(67, 82, 82, 0.626);
+  color:#fff;
+}
+.dropdown button{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#fff;
+  color:black
+}
+.traveller_btn{
+  color:#fff !important;
+  background-color: rgba(67, 82, 82, 0.626) !important;
+  border:1px solid #c7cccf !important;
+}
+.traveller_btn:hover{
+  color:#fff !important;
+  background-color: rgba(67, 82, 82, 0.626) !important;
+  border:1px solid #c7cccf !important;
+}
+.dropdown-menu{
+  padding: 0px !important;
+  border-radius: 10px !important;
+}
+.traveller_menu{
+  background-color:rgb(30, 29, 29); 
+  width:max-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  color:#fff;
+  opacity: 0.7;
+}
+.app_btn{
+  padding:0px 10px !important;
+  background-color: #61dafb !important;
+  display:flex;
+  justify-content: center !important;
+  align-items: center;
+}
+.atrisk_css{
+  color: #61dafb;
+}
+.main_container .container .box{
+  display:flex; 
+  align-items: center;
+  gap: 20px; 
+  flex-wrap:wrap; 
+  width: 100%;
+  height:100%;
+}
+.main_container .container{
+  display:flex; 
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background-color:rgba(2, 2, 2, 0.63);
+  padding:20px;
+  height:max-content;
+  color:#f0ebeb;
+  font-weight: 700; 
+}
+.select_preffered_class{
+  color:#fff !important;
+  background-color: rgba(67, 82, 82, 0.626) !important;
+  border:1px solid #c7cccf !important;
+}
+.submit_btn{
+  margin-top: 20px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+.submit_btn button{
+  padding: 10px;
+}
+.submit_btn button:hover{
+  color:black !important;
+}
+.bi_direc_arrow{
+  height: 100%;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
